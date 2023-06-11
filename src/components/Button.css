@@ -1,0 +1,35 @@
+.btn-container {
+  display: flex;
+}
+
+.btn-action {
+  position: relative;
+  padding: 24px 34px;
+  border: none;
+  background-color: var(--almost-black);
+
+  color: var(--white);
+  font-size: 20px;
+  font-family: var(--hd-big-shoulders);
+  letter-spacing: 3.64px;
+  text-transform: uppercase;
+  font-weight: 800;
+  order: 2;
+}
+
+.arrow {
+  background-color: var(--gold);
+  width: 56px;
+  height: 71px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow--right {
+  order: 3;
+}
+
+.arrow--left {
+  order: 1;
+}

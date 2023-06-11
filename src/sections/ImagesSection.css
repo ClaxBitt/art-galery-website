@@ -1,0 +1,28 @@
+.images__container {
+  margin: 0px 16px 120px 16px;
+  max-width: 343px;
+}
+
+.images__container img {
+  margin-bottom: 16px;
+}
+
+.images__info {
+  background-color: var(--almost-black);
+  color: var(--white);
+  padding: 48px 24px;
+  max-width: 343px;
+}
+
+.images__info h1 {
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 45px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.images__info p {
+  margin: 0;
+}

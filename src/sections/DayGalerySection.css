@@ -1,0 +1,18 @@
+.day-galery-section {
+  margin: 0px 16px 32px 16px;
+  max-width: 343px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.day-galery__info h2 {
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 45px;
+  color: var(--almost-black);
+  margin-top: 25px;
+  margin-bottom: 21px;
+}

@@ -1,0 +1,23 @@
+@import "normalize.css";
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --gold: #d5966c;
+  --dark-gray: #444444;
+  --almost-black: #151515;
+  --white: #ffffff;
+
+  --ph-outfit: "Outfit", sans-serif;
+  --hd-big-shoulders: "Big Shoulders Display", cursive;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
