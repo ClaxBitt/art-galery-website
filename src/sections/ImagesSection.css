@@ -37,7 +37,7 @@
 
 @media (min-width: 768px) {
   .images__container {
-    max-width: 100%;
+    max-width: 689px;
     display: flex;
     gap: 11px;
   }

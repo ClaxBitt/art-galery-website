@@ -15,6 +15,7 @@
   display: flex;
   justify-content: center;
   z-index: 1;
+  max-width: 900px;
 }
 
 .eName__bg--first-layer picture {
@@ -49,7 +50,7 @@
 
 @media (min-width: 768px) {
   .eName {
-    max-width: 100%;
+    max-width: 900px;
   }
 
   .eName__bg--first-layer {
