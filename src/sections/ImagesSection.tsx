@@ -9,22 +9,27 @@ import peopleHallMobile from "../assets/mobile/image-grid-3.jpg";
 function ImagesSection() {
   return (
     <div className="images__container">
-      <picture>
+      <picture className="container__grid1">
         <source srcSet={tableCenterDesktop} media="(min-width: 1024px)" />
         <source srcSet={tableCenterTablet} media="(min-width: 768px)" />
         <source srcSet={tableCenterMobile} />
         <img
           src={tableCenterDesktop}
           alt="A yellow table in the center in white room"
+          className="img--max-size"
         />
       </picture>
 
       <div className="images__info-container">
-        <picture>
+        <picture className="info-container__grid2">
           <source srcSet={peopleHallDesktop} media="(min-width: 1024px)" />
           <source srcSet={peopleHallTablet} media="(min-width: 768px)" />
           <source srcSet={peopleHallMobile} />
-          <img src={peopleHallDesktop} alt="People in hall watching paints" />
+          <img
+            src={peopleHallDesktop}
+            alt="People in hall watching paints"
+            className="img--max-size"
+          />
         </picture>
 
         <div className="images__info">

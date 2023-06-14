@@ -22,3 +22,18 @@ footer p {
 .footer__social img:last-of-type {
   margin-right: 0;
 }
+
+@media (min-width: 768px) {
+  footer {
+    display: grid;
+    grid-template-columns: 25% 40% 35%;
+  }
+
+  footer p {
+    margin-bottom: 0px;
+  }
+
+  .footer__social {
+    justify-self: right;
+  }
+}

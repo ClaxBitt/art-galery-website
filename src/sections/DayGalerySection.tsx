@@ -6,11 +6,15 @@ import symbolsPaintsMobile from "../assets/mobile/image-grid-1.jpg";
 function DayGalerySection() {
   return (
     <section className="day-galery-section">
-      <picture>
+      <picture className="day-galery__picture">
         <source srcSet={symbolsPaintsDesktop} media="(min-width: (1024px)" />
         <source srcSet={symbolsPaintsTablet} media="(min-width: (768px)" />
         <source srcSet={symbolsPaintsMobile} />
-        <img src={symbolsPaintsDesktop} alt="Paints about symbols and colors" />
+        <img
+          src={symbolsPaintsDesktop}
+          alt="Paints about symbols and colors"
+          className="img--max-size"
+        />
       </picture>
 
       <div className="day-galery__info">

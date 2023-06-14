@@ -21,3 +21,9 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media (min-width: 768px) {
+  #root {
+    align-items: flex-start;
+  }
+}

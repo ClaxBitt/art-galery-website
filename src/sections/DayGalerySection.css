@@ -1,10 +1,11 @@
 .day-galery-section {
-  margin: 0px 16px 32px 16px;
+  margin: 0px 16px 32px;
   max-width: 343px;
 }
 
-img {
-  max-width: 100%;
+.day-galery__picture {
+  width: 343px;
+  height: 320px;
 }
 
 .day-galery__info h2 {
@@ -15,4 +16,29 @@ img {
   color: var(--almost-black);
   margin-top: 25px;
   margin-bottom: 21px;
+}
+
+@media (min-width: 768px) {
+  .day-galery-section {
+    max-width: 100%;
+    display: flex;
+    gap: 68px;
+    margin: 0px 39px 11px;
+  }
+
+  .day-galery-section picture {
+    width: 398px;
+    height: 400px;
+    order: 2;
+  }
+
+  .day-galery__info {
+    max-width: 223px;
+    order: 1;
+  }
+
+  .day-galery__info h2 {
+    margin-top: 36px;
+    margin-bottom: 24px;
+  }
 }

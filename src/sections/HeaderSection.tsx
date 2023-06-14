@@ -11,7 +11,7 @@ function HeaderSection() {
   return (
     <header className="eName">
       <div className="eName__bg eName__bg--first-layer">
-        <picture>
+        <picture className="eName__picture">
           <source srcSet={imageHeroDesktop} media="(min-width: 1024px)" />
           <source srcSet={imageHeroTablet} media="(min-width: 768px)" />
           <source srcSet={imageHeroMobile} />
@@ -23,20 +23,24 @@ function HeaderSection() {
       </div>
 
       <div className="eName__bg eName__bg--second-layer">
-        <img
-          src={logoDark}
-          alt="Modern Art Galery dark logo"
-          className="logo"
-        />
+        <div className="eName__container--second-layer">
+          <picture className="logo">
+            <img
+              src={logoDark}
+              alt="Modern Art Galery dark logo"
+              className="img--max-size"
+            />
+          </picture>
 
-        <div className="eName__info">
-          <p className="p--gr">
-            The arts in the collection of the Modern Art Gallery all started
-            from a spark of inspiration. Will these pieces inspire you? Visit us
-            and find out.
-          </p>
+          <div className="eName__info">
+            <p className="p--gr">
+              The arts in the collection of the Modern Art Gallery all started
+              from a spark of inspiration. Will these pieces inspire you? Visit
+              us and find out.
+            </p>
 
-          <Button text="Our Location" target="right" />
+            <Button text="Our Location" target="right" />
+          </div>
         </div>
       </div>
 

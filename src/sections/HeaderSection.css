@@ -11,16 +11,28 @@
 }
 
 .eName__bg--first-layer {
+  position: relative;
   display: flex;
   justify-content: center;
+  z-index: 1;
 }
 
-.eName__bg--second-layer .logo {
+.eName__bg--first-layer picture {
+  max-height: 700px;
+}
+
+.eName__bg--second-layer {
+  position: relative;
+  z-index: 2;
+}
+
+.eName__container--second-layer .logo {
   height: 110px;
+  max-width: 280px;
   margin: 32px 16px;
 }
 
-.eName__bg--second-layer .eName__info {
+.eName__info {
   margin: 0px 16px;
 }
 
@@ -30,5 +42,40 @@
 }
 
 .eName__bg--third-layer {
+  position: relative;
   display: none;
+  z-index: 3;
+}
+
+@media (min-width: 768px) {
+  .eName {
+    max-width: 100%;
+  }
+
+  .eName__bg--first-layer {
+    position: absolute;
+    justify-content: flex-start;
+  }
+
+  .eName__bg--second-layer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .eName__container--second-layer {
+    max-width: 339px;
+    margin-top: 145px;
+    margin-right: 40px;
+    margin-bottom: 120px;
+  }
+
+  .eName__container--second-layer .logo {
+    height: 130px;
+    max-width: 339px;
+    margin: 32px 0px;
+  }
+
+  .eName__info {
+    margin: 0px 0px;
+  }
 }
