@@ -80,3 +80,65 @@
     margin: 0px 0px;
   }
 }
+
+@media (min-width: 1024px) {
+  .eName {
+    max-width: 100%;
+    margin-bottom: 300px;
+  }
+
+  .eName__bg--first-layer {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .eName__bg--second-layer {
+    justify-content: flex-start;
+  }
+
+  .eName__container--second-layer {
+    min-width: 100%;
+    position: relative;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 190px 165px;
+  }
+
+  .eName__container--second-layer .logo {
+    max-width: 460px;
+    height: 176px;
+    margin: 0;
+  }
+
+  .eName__info {
+    max-width: 350px;
+  }
+
+  .eName__info p {
+    margin-bottom: 64px;
+  }
+
+  .eName__bg--third-layer {
+    display: block;
+    background-color: var(--almost-black);
+    max-width: 450px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .hide__image__container {
+    overflow: hidden;
+    max-width: 284px;
+    position: absolute;
+    top: 190px;
+    left: 165px;
+  }
+
+  .logo__third-layer {
+    width: 460px;
+    height: 176px;
+  }
+}

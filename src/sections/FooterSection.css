@@ -37,3 +37,17 @@ footer p {
     justify-self: right;
   }
 }
+
+@media (min-width: 1024px) {
+  footer {
+    width: 100%;
+    padding: 85px 165px;
+    grid-template-columns: 30% 35% 35%;
+  }
+
+  footer .logo {
+    width: 160px;
+    height: 58px;
+    margin-bottom: 0;
+  }
+}

@@ -57,3 +57,33 @@
     padding: 85px 28px;
   }
 }
+
+@media (min-width: 1024px) {
+  .images__container {
+    max-width: 100%;
+    gap: 30px;
+    margin-bottom: 180px;
+  }
+
+  .container__grid1 {
+    width: 635px;
+    height: 720px;
+  }
+
+  .info-container__grid2 {
+    width: 445px;
+    height: 313px;
+    margin-bottom: 30px;
+  }
+
+  .images__info {
+    max-width: 445px;
+    padding: 64px 48px;
+  }
+
+  .images__info h1 {
+    margin-bottom: 32px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+}

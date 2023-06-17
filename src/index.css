@@ -21,3 +21,9 @@
   flex-direction: column;
   align-items: center;
 }
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}

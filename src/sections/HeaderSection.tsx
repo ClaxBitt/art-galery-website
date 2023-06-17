@@ -45,7 +45,13 @@ function HeaderSection() {
       </div>
 
       <div className="eName__bg eName__bg--third-layer">
-        <img src={logoLight} alt="Modern Art Galery light logo" />
+        <div className="hide__image__container">
+          <img
+            src={logoLight}
+            alt="Modern Art Galery light logo"
+            className="logo__third-layer"
+          />
+        </div>
       </div>
     </header>
   );

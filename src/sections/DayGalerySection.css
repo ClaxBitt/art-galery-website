@@ -42,3 +42,20 @@
     margin-bottom: 24px;
   }
 }
+
+@media (min-width: 1024px) {
+  .day-galery-section {
+    gap: 125px;
+    margin: 0px 165px 30px;
+  }
+
+  .day-galery-section picture,
+  .day-galery__picture img {
+    width: 635px;
+    height: 400px;
+  }
+
+  .day-galery__info {
+    max-width: 350px;
+  }
+}
