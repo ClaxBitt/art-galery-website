@@ -46,7 +46,7 @@
 @media (min-width: 1024px) {
   .day-galery-section {
     gap: 125px;
-    margin: 0px 165px 30px;
+    margin-bottom: 30px;
   }
 
   .day-galery-section picture,

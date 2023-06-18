@@ -38,8 +38,9 @@ footer p {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   footer {
+    max-width: 1440px;
     width: 100%;
     padding: 85px 165px;
     grid-template-columns: 30% 35% 35%;

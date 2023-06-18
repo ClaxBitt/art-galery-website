@@ -4,6 +4,7 @@
   max-height: 800px;
   height: 100%;
   margin-bottom: 120px;
+  position: relative;
 }
 
 .eName__bg {
@@ -81,9 +82,9 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1400px) {
   .eName {
-    max-width: 100%;
+    max-width: 1440px;
     margin-bottom: 300px;
   }
 
