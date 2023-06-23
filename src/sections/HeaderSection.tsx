@@ -39,7 +39,7 @@ function HeaderSection() {
               us and find out.
             </p>
 
-            <Button text="Our Location" target="right" />
+            <Button text="Our Location" target="right" url="/location" />
           </div>
         </div>
       </div>

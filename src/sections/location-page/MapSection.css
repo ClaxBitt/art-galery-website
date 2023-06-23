@@ -1,0 +1,14 @@
+/* Button: Back to Home at the top of the screen */
+.map-container {
+  position: relative;
+  max-width: 100%;
+}
+
+.map-container .btn-container {
+  position: absolute;
+}
+
+/* Map: Map image */
+.map-container__map {
+  height: 574px;
+}

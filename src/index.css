@@ -16,12 +16,6 @@
   --hd-big-shoulders: "Big Shoulders Display", cursive;
 }
 
-#root {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 *,
 ::after,
 ::before {
