@@ -1,0 +1,33 @@
+.location {
+  background-color: var(--almost-black);
+  color: white;
+  padding: 48px 16px 56px;
+}
+
+.location__title {
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.info__title {
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.info__ubication {
+  font-weight: 300;
+  line-height: 28px;
+  margin: 20px 0px;
+}
+
+.info__description {
+  font-weight: 300;
+  line-height: 28px;
+  margin: 0;
+}

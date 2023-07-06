@@ -4,6 +4,7 @@ import ImagesSection from "./sections/ImagesSection";
 import FooterSection from "./sections/FooterSection";
 
 import MapSection from "./sections/location-page/MapSection";
+import LocationInfoSection from "./sections/location-page/LocationInfoSection";
 
 import "./App.css";
 import { Route, Routes } from "react-router";
@@ -13,7 +14,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/location" element={<MapSection />} />
+        <Route path="/location" element={<LocationPage />} />
       </Routes>
     </div>
   );
@@ -26,6 +27,15 @@ function Home() {
       <DayGalerySection />
       <ImagesSection />
       <FooterSection />
+    </>
+  );
+}
+
+function LocationPage() {
+  return (
+    <>
+      <MapSection />
+      <LocationInfoSection />
     </>
   );
 }
