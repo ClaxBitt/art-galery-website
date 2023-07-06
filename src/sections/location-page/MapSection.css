@@ -1,7 +1,7 @@
 /* Button: Back to Home at the top of the screen */
 .map-container {
   position: relative;
-  max-width: 100%;
+  min-width: 100%;
 }
 
 .map-container .btn-container {
@@ -11,4 +11,8 @@
 /* Map: Map image */
 .map-container__map {
   height: 574px;
+}
+
+.map-container__map img {
+  min-width: 100%;
 }
