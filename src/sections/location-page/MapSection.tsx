@@ -8,11 +8,13 @@ import "./MapSection.css";
 function MapSection() {
   return (
     <section className="map-container">
-      <Button text="Back to home" target="left" url="/" />
+      <div className="button-container">
+        <Button text="Back to home" target="left" url="/" />
+      </div>
 
       <picture className="map-container__map">
         <source srcSet={imageMapDesktop} media="(min-width: 1024px)" />
-        <source srcSet={imageMapTablet} media="(min-width: 768px)" />
+        <source srcSet={imageMapTablet} media="(min-width: 560px)" />
         <source srcSet={imageMapMobile} />
         <img
           src={imageMapDesktop}

@@ -4,9 +4,15 @@ import iconFacebook from "../assets/icon-facebook.svg";
 import iconInstagran from "../assets/icon-instagram.svg";
 import iconTwitter from "../assets/icon-twitter.svg";
 
-function FooterSection() {
+interface FooterProps {
+  bgColor: "gold" | "dark";
+}
+
+function FooterSection(props: FooterProps) {
+  let footerBgColorClass = props.bgColor == "dark" ? "dark" : "gold";
+
   return (
-    <footer>
+    <footer className={`bg--${footerBgColorClass}`}>
       <img
         src={logoLight}
         alt="Modern Art Galery light logo"

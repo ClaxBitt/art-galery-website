@@ -26,7 +26,7 @@ function Home() {
       <HeaderSection />
       <DayGalerySection />
       <ImagesSection />
-      <FooterSection />
+      <FooterSection bgColor="dark" />
     </>
   );
 }
@@ -36,6 +36,7 @@ function LocationPage() {
     <>
       <MapSection />
       <LocationInfoSection />
+      <FooterSection bgColor="gold" />
     </>
   );
 }
