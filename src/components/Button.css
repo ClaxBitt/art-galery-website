@@ -2,6 +2,26 @@
   display: flex;
 }
 
+@keyframes changeBgColorDarkToGold {
+  0% {
+    background-color: #151515;
+  }
+
+  100% {
+    background-color: #d5966c;
+  }
+}
+
+@keyframes changeBgColorGoldToDark {
+  0% {
+    background-color: #d5966c;
+  }
+
+  100% {
+    background-color: #151515;
+  }
+}
+
 .btn-action {
   position: relative;
   padding: 24px 34px;
@@ -15,6 +35,16 @@
   text-transform: uppercase;
   font-weight: 800;
   order: 2;
+}
+
+.btn-action:hover {
+  animation: changeBgColorDarkToGold 0.25s ease;
+  background-color: var(--gold);
+}
+
+.btn-action:hover ~ .arrow {
+  animation: changeBgColorGoldToDark 0.25s ease;
+  background-color: var(--almost-black);
 }
 
 .arrow {

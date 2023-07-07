@@ -18,6 +18,7 @@ function HeaderSection() {
           <img
             src={imageHeroDesktop}
             alt="desktop background about a grandmother"
+            loading="lazy"
           />
         </picture>
       </div>
@@ -29,6 +30,7 @@ function HeaderSection() {
               src={logoDark}
               alt="Modern Art Galery dark logo"
               className="img--max-size"
+              loading="lazy"
             />
           </picture>
 
@@ -50,6 +52,7 @@ function HeaderSection() {
             src={logoLight}
             alt="Modern Art Galery light logo"
             className="logo__third-layer"
+            loading="lazy"
           />
         </div>
       </div>

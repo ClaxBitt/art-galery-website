@@ -14,6 +14,7 @@ function DayGalerySection() {
           src={symbolsPaintsDesktop}
           alt="Paints about symbols and colors"
           className="img--max-size"
+          loading="lazy"
         />
       </picture>
 

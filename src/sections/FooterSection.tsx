@@ -25,9 +25,21 @@ function FooterSection(props: FooterProps) {
       </p>
 
       <div className="footer__social">
-        <img src={iconFacebook} alt="Icon Facebook" />
-        <img src={iconInstagran} alt="Icon Instagram" />
-        <img src={iconTwitter} alt="Icon Twitter" />
+        <img
+          src={iconFacebook}
+          alt="Icon Facebook"
+          className={`icon-${footerBgColorClass}`}
+        />
+        <img
+          src={iconInstagran}
+          alt="Icon Instagram"
+          className={`icon-${footerBgColorClass}`}
+        />
+        <img
+          src={iconTwitter}
+          alt="Icon Twitter"
+          className={`icon-${footerBgColorClass}`}
+        />
       </div>
     </footer>
   );

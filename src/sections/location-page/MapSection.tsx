@@ -20,6 +20,7 @@ function MapSection() {
           src={imageMapDesktop}
           alt="Our location"
           className="img--max-size"
+          loading="lazy"
         />
       </picture>
     </section>

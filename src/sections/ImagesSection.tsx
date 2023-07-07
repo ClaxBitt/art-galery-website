@@ -17,6 +17,7 @@ function ImagesSection() {
           src={tableCenterDesktop}
           alt="A yellow table in the center in white room"
           className="img--max-size"
+          loading="lazy"
         />
       </picture>
 
@@ -29,6 +30,7 @@ function ImagesSection() {
             src={peopleHallDesktop}
             alt="People in hall watching paints"
             className="img--max-size"
+            loading="lazy"
           />
         </picture>
 
